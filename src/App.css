@@ -1,38 +1,231 @@
-.App {
-  text-align: center;
+
+
+@media (max-width:998px) {
+    html{
+        font-size: 55%;
+    }
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media (max-width:768px) {
+    html{
+        font-size: 45%;
+    }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-on-image{
+    
+    color: rgba(255, 228, 228, 0.952);
+    position: absolute;
+    left: 40%;
+    bottom: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    mix-blend-mode: screen;
+    font-size: 260%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.text-about-me{
+    color: rgba(255, 228, 228, 0.726);
 }
 
-.App-link {
-  color: #61dafb;
+.image-above-text-on-me{
+    color: rgba(255, 228, 228, 0.952);
+    position: absolute;
+    left: 66%;
+    bottom: -20%;
+    opacity: 0.4;
+    mix-blend-mode:screen;
+    font-size: 110%;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.myintro{
+    color: rgba(243, 240, 235, 0.829);
+}
+
+.images {
+    opacity: 0.4;
+    
+}
+  
+.images:hover {
+    opacity: 1;
+    transition: 1.4s all; 
+}
+
+.my-image{
+    opacity: 0.3;
+
+}
+.my-image:hover{
+    opacity: 0.7;
+    transition: 1.4s all; 
+}   
+
+.insta-icon{
+  
+    position: absolute;
+    bottom: 30%;
+    left: 43%;
+    scale: 1;
+}
+.insta-icon:hover{
+    
+    transition: all 1.2s;
+    transform: scale(1.2);
+}
+
+
+.gmail-icon{
+    
+    position: absolute;
+    bottom: 30%;
+    left: 48%;
+
+}
+.gmail-icon:hover{
+    
+    transition: all 1.2s;
+    transform: scale(1.2);
+}
+
+
+.twitter-icon{
+  
+    position: absolute;
+    bottom: 30%;
+    left: 53%;
+}
+
+.twitter-icon:hover{
+    
+    transition: all 1.2s;
+    transform: scale(1.2);
+}
+
+.mywork{
+    position: absolute;
+    bottom: -200%;
+}
+
+.yugen{
+    color: rgb(255, 252, 246);
+    
+}
+
+.yugen-tittle{
+    color: rgb(255, 252, 246);
+}
+
+.yugen_btn{
+    background-color: black;
+}
+
+.yugen-image{
+    opacity: 0.5;
+}
+
+.yugen-image:hover{
+    transition: all 1.2s;
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+.woodnote-main{
+    position: absolute;
+    left: 120%;
+    bottom: 0.3%;
+}
+
+.woodnote-image{
+    opacity: 0.3;
+}
+
+.woodnote-image:hover{
+   
+    transition: all 1.1s;
+    transform: scale(1.2);
+    opacity: 1;
+   
+
+}
+
+.inure-main{
+    position: absolute;
+    left: 258%;
+    bottom: 0.3%;
+}
+
+.projects-class{
+    position: absolute;
+    bottom: -240%;
+}
+
+.project-tittle{
+    position: abslolute;
+    left: 50%;
+    font-weight: 100;
+    right: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 80px #0ff,
+  
+
+}
+    
+.animation-one{
+    position: absolute;
+    left: 63%;
+    bottom: -240%;
+    width: 30%;
+    height: 30%;
+}
+
+.animation-two{
+    position: absolute;
+    left: 55%;
+    bottom: -360%;
+    width: 36%;
+    height: 30%;
+}
+
+
+
+.project-one{
+    position: absolute;
+    bottom: -180%;
+    left: 10%;
+
+}
+.project-one-back{
+    background-color: black;
+    color: rgb(161, 161, 161);
+}
+
+.project-one-btn{
+    background-color: black;
+}
+
+.project-two{
+    position: absolute;
+    bottom: -310%;
+    left: 10%;
+
+}
+
+.project-three{
+    position: absolute;
+    bottom: -440%;
+    left: 10%;
+}
+
+.project-four{
+    position: absolute;
+    bottom: -580%;
+    left: 10%;
 }
