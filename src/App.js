@@ -5,6 +5,7 @@ import Aboutme from './Components/Aboutme';
 import Projects from './Components/Projects';
 import LottieOne from './Components/LottieOne';
 import Graph from './Components/Graph'
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -26,11 +27,7 @@ function App() {
           
       </div>
 
-      <div>
-        <p>Footer</p>
-      </div>
-      
-
+      <Footer/>
       </>
 
      

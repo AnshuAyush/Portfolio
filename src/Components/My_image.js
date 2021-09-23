@@ -32,6 +32,8 @@ export default function My_image() {
     return (
 
     <>
+
+    <div className="container-fluid">
     <div className="images">
 
     <img width = "1240" height = "500" src={landing_image} className="rounded mx-auto d-block" alt="..."/>
@@ -39,20 +41,27 @@ export default function My_image() {
             <Typewriter onInit = {type}/>
         </div>
         </div>
+        </div>
         
+        <div className="container">
         <div className="insta-icon" onClick = {visitInstagram}>
             <img  src= {instaicon} />
 
         </div>
+        </div>
 
+        <div className="container">
         <div className="gmail-icon" onClick = {VisitGmail}>
             <img  src= {gmail} />
 
         </div>
+        </div>
 
+        <div className="container">
         <div className="twitter-icon" style = {{opacity: 1}} >
             <img  src= {twitter} />
 
+        </div>
         </div>
 
     

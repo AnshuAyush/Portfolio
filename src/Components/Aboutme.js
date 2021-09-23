@@ -7,7 +7,7 @@ import Inure from './Inure';
 
 export default function Aboutme() {
     return (
-        
+        <div className="container">
         <div className="my-5">
 
            <div className="text-about-me">
@@ -43,6 +43,7 @@ export default function Aboutme() {
                 </div>
             </div>
 
+            </div>
 
 
 
@@ -55,22 +56,27 @@ export default function Aboutme() {
                 </div>
                 </div>
             
-
+                <div className="container">
                 <div className="yugen-main">
                     <SampleVideo_yugen/>
                 </div>
+                </div>
+
+                <div className="container">
                 <div className="woodnote-main">
                     <SampleVideWoodNote/>
                 </div>
+                </div>
 
+                <div className="container">
                 <div className="inure-main">
                     <Inure/>
 
                 </div>
+                </div>
                 
                 </div>
     </div>
-
-
+    
     )
 }
