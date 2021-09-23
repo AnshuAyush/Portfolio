@@ -7,7 +7,8 @@ import woodnote from '../images/woodnote.png'
 export default function SmapleVideWoodNote() {
     return (
         <>
-        <div className="mx-4">    
+        <div className="container">
+        <div className="mx-2">    
             <Card style={{width: '22rem', backgroundColor:"black" }}>
 
             <Card.Img height = "290" className = "woodnote-image" src = {woodnote}/>
@@ -24,6 +25,7 @@ export default function SmapleVideWoodNote() {
 
             </Card.Body>
             </Card>
+            </div>
         </div>
         </>
     )

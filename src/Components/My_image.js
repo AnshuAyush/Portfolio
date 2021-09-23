@@ -43,21 +43,21 @@ export default function My_image() {
         </div>
         </div>
         
-        <div className="container">
+        <div className="container-sm">
         <div className="insta-icon" onClick = {visitInstagram}>
             <img  src= {instaicon} />
 
         </div>
         </div>
 
-        <div className="container">
+        <div className="container-sm">
         <div className="gmail-icon" onClick = {VisitGmail}>
             <img  src= {gmail} />
 
         </div>
         </div>
 
-        <div className="container">
+        <div className="container-sm">
         <div className="twitter-icon" style = {{opacity: 1}} >
             <img  src= {twitter} />
 

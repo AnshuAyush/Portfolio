@@ -19,9 +19,10 @@ export default function LottieOne() {
 
 
     return (
+        <div className="container">
         <div className="animation-one">
             <div className = "container" ref = {container}> </div>
         </div>
-
+        </div>
     )
 }

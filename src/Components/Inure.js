@@ -8,7 +8,8 @@ import inure from '../images/inure.png';
 export default function Inure() {
     return (
         <>
-        <div className="mx-4">    
+        <div className="container">
+        <div className="mx-2">    
             <Card style={{width: '21rem', backgroundColor:"black" }}>
 
             <Card.Img height = "290" className = "yugen-image" src = {inure}/>
@@ -25,6 +26,7 @@ export default function Inure() {
 
             </Card.Body>
             </Card>
+            </div>
         </div>
         </>
     )

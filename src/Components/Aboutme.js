@@ -18,17 +18,17 @@ export default function Aboutme() {
                 </div>
             </div> 
         <div className="container">
-
+            <div className="container">
             <div className="my-image">
                 <img  width = "400" height = "600" src={me} class="rounded float-end"/>        
             </div>
+            </div>
         
-        <div className = "image-above-text-on-me">
 
-       
         </div>
-        </div>
-        <div className="mx-4">
+
+        <div className="container">
+        <div className="mx-2">
             <div className="myintro">
             <p>Hey Every one, I'm  <strong>Aster Bluem</strong> currently pursuing my B.Tech Degree from Kalinga Institute of
                     Insdustrial Technology I like to explore new things and Technology and I'm also passionate 
@@ -42,7 +42,7 @@ export default function Aboutme() {
 
                 </div>
             </div>
-
+            </div>
             </div>
 
 

@@ -8,7 +8,8 @@ import me from '../images/yugen.png'
 export default function SampleVideo() {
     return (
         <>
-        <div className="mx-4">
+        <div className="container">
+        <div className="mx-2">
             
             <Card style={{ width: '18rem', backgroundColor:"black" }}>
 
@@ -26,6 +27,7 @@ export default function SampleVideo() {
 
             </Card.Body>
             </Card>
+            </div>
         </div>
 
         </>
